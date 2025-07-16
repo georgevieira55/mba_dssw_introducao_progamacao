@@ -9,4 +9,4 @@ qtd_litros = area_cilindro/3
 qtd_latas = qtd_litros/8
 custo_total = qtd_latas * 50
 
-print('O custo total da pintura é RS{custo_total:.2f}')
+print(f'O custo total da pintura é RS{custo_total:.2f}')
