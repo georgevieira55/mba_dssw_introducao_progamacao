@@ -7,7 +7,7 @@ print('2 - Fahrenheit')
 escala = int(input('Digite a escala'))
 
 if escala == 1:
-    temperatura = temperatura * 1.8 + 32
+    temperatura = (temperatura * 1.8) + 32
     print(f'A temperatura {temperatura} em celsius')
     print(f'Ficou {temperatura} em Fahrenheit')
 
